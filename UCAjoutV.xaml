@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="Zombillenium.UCAjoutV"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Zombillenium"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="900">
+    <Grid Background="#FFD9EAFF">
+        <Grid Background="#FFD9EAFF" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBox x:Name="MatriculeV"  HorizontalAlignment="Left" Margin="10,20,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100"  Background="White"/>
+            <TextBlock x:Name="Bouton_matriculeV" Text="matriculeV" HorizontalAlignment="Left" Margin="120,20,0,0" VerticalAlignment="Top" Width="100"  />
+            <TextBox x:Name="NomV"  HorizontalAlignment="Left" Margin="10,50,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100"  Background="White"/>
+            <TextBlock x:Name="Bouton_nomV" Text="nomV" HorizontalAlignment="Left" Margin="120,50,0,0" VerticalAlignment="Top" Width="100"/>
+            <TextBox x:Name="PrenomV"  HorizontalAlignment="Left" Margin="10,80,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100"   Background="White"/>
+            <TextBlock x:Name="Bouton_PrenomV" Text="PrenomV" HorizontalAlignment="Left" Margin="120,80,0,0" VerticalAlignment="Top" Width="100" />
+            <ComboBox x:Name="SexeV" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="10,110,0,0" SelectionChanged="SexeVamp_SelectionChanged"   Background="White" >
+                <ComboBoxItem >male</ComboBoxItem>
+                <ComboBoxItem >femelle</ComboBoxItem>
+                <ComboBoxItem >autre</ComboBoxItem>
+            </ComboBox>
+            <TextBlock x:Name="Bouton_SexeV" Text="SexeV" HorizontalAlignment="Left" Margin="120,110,0,0" VerticalAlignment="Top" Width="100"  />
+            <TextBox x:Name="fonctionV"  HorizontalAlignment="Left" Margin="10,140,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100"   Background="White"/>
+            <TextBlock x:Name="Bouton_fonctionV" Text="fonctionV" HorizontalAlignment="Left" Margin="120,140,0,0" VerticalAlignment="Top" Width="100" />
+            <TextBox x:Name="cagnotteV"  HorizontalAlignment="Left" Margin="10,170,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100"   Background="White"/>
+            <TextBlock x:Name="Bouton_cagnotteV" Text="cagnotteV" HorizontalAlignment="Left" Margin="120,170,0,0" VerticalAlignment="Top" Width="100" />
+            <TextBox x:Name="affectationV"  HorizontalAlignment="Left" Margin="10,200,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100"   Background="White"/>
+            <TextBlock x:Name="Bouton_affectationV" Text="affectationZ" HorizontalAlignment="Left" Margin="120,200,0,0" VerticalAlignment="Top" Width="100"/>
+            <TextBox x:Name="lumV"  HorizontalAlignment="Left" Margin="10,230,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100"   Background="White"/>
+            <TextBlock x:Name="Bouton_LumV" Text="IndiceLumV" HorizontalAlignment="Left" Margin="120,230,0,0" VerticalAlignment="Top" Width="100"    />
+
+            <Button x:Name="AjoutV" Content="Ajout ok" HorizontalAlignment="Left" Margin="120,260,0,0" VerticalAlignment="Top" Width="100"  Background="BlueViolet" Click="AjoutV_Click"     />
+
+        </Grid>
+    </Grid>
+</UserControl>

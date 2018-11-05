@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="Zombillenium.UCAjoutDr"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Zombillenium"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="900">
+    <Grid Background="#FFD9EAFF">
+        <Grid Background="#FFD9EAFF" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <ComboBox x:Name="BesoinSpeDr" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="10,20,0,0" SelectionChanged="BesoinSpeDr_SelectionChanged" Background="White" >
+                <ComboBoxItem >true</ComboBoxItem>
+                <ComboBoxItem >false</ComboBoxItem>
+            </ComboBox>
+            <TextBlock x:Name="Bouton_BesoinSpé" Text="BesoinSpé" HorizontalAlignment="Left" Margin="120,20,0,0" VerticalAlignment="Top" Width="100"/>
+            <TextBox x:Name="IdDR"  HorizontalAlignment="Left" Margin="10,50,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100" Background="White"/>
+            <TextBlock x:Name="Bouton_IdDR" Text="Id DR" HorizontalAlignment="Left" Margin="120,50,0,0" VerticalAlignment="Top" Width="100" />
+            <TextBox x:Name="NomDR"  HorizontalAlignment="Left" Margin="10,80,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100" Background="White"/>
+            <TextBlock x:Name="Bouton_NomDR" Text="NomDR" HorizontalAlignment="Left" Margin="120,80,0,0" VerticalAlignment="Top" Width="100"  />
+            <ComboBox x:Name="OuvertDR" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="10,110,0,0" SelectionChanged="OuvertDR_SelectionChanged" Background="White" >
+                <ComboBoxItem >true</ComboBoxItem>
+                <ComboBoxItem >false</ComboBoxItem>
+            </ComboBox>
+            <TextBlock x:Name="Bouton_OuvertDR" Text="OuvertDR" HorizontalAlignment="Left" Margin="120,110,0,0" VerticalAlignment="Top" Width="100"/>
+            <ComboBox x:Name="typeBesoinDR" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="10,140,0,0" SelectionChanged="typeBesoinDR_SelectionChanged" Background="White" >
+                <ComboBoxItem >zombie</ComboBoxItem>
+                <ComboBoxItem >Loup Garou</ComboBoxItem>
+                <ComboBoxItem >Demon</ComboBoxItem>
+                <ComboBoxItem >fantome</ComboBoxItem>
+                <ComboBoxItem >Vampire</ComboBoxItem>
+                <ComboBoxItem >Autre</ComboBoxItem>
+            </ComboBox>
+            <TextBlock x:Name="Bouton_typeBesoinDR" Text="typeBesoinDR" HorizontalAlignment="Left" Margin="120,140,0,0" VerticalAlignment="Top" Width="100"  />
+            <ComboBox x:Name="MaintanceDR" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="10,170,0,0" SelectionChanged="MaintanceDR_SelectionChanged" Background="White">
+                <ComboBoxItem >true</ComboBoxItem>
+                <ComboBoxItem >false</ComboBoxItem>
+            </ComboBox>
+            <TextBlock x:Name="Bouton_MaintanceDR" Text="MaintanceDR" HorizontalAlignment="Left" Margin="120,170,0,0" VerticalAlignment="Top" Width="100"/>
+            <TextBox x:Name="NbMinDR"  HorizontalAlignment="Left" Margin="10,200,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100" Background="White"/>
+            <TextBlock x:Name="Bouton_NbMinDR" Text="NbMinDR" HorizontalAlignment="Left" Margin="120,200,0,0" VerticalAlignment="Top" Width="100" />
+            <TextBox x:Name="DureeDR"  HorizontalAlignment="Left" Margin="10,230,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100" Background="White"/>
+            <TextBlock x:Name="Bouton_DureeDR" Text="DureeDR" HorizontalAlignment="Left" Margin="120,230,0,0" VerticalAlignment="Top" Width="100" />
+            <TextBox x:Name="HorairesDR"  HorizontalAlignment="Left" Margin="10,260,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100" Background="White"/>
+            <TextBlock x:Name="Bouton_HorairesDR" Text="HorairesDR" HorizontalAlignment="Left" Margin="120,260,0,0" VerticalAlignment="Top" Width="100" />
+            <ComboBox x:Name="BesoinVehDR" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="10,290,0,0" SelectionChanged="BesoinVehDR_SelectionChanged" Background="White">
+                <ComboBoxItem >true</ComboBoxItem>
+                <ComboBoxItem >false</ComboBoxItem>
+            </ComboBox>
+            <TextBlock x:Name="Bouton_BesoinVehDR" Text="BesoinVehDR" HorizontalAlignment="Left" Margin="120,290,0,0" VerticalAlignment="Top" Width="100"/>
+            <TextBox x:Name="TypeM"  HorizontalAlignment="Left" Margin="10,320,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100" Background="White"/>
+            <TextBlock x:Name="Bouton_TypeM" Text="TypeMain" HorizontalAlignment="Left" Margin="120,320,0,0" VerticalAlignment="Top" Width="100"/>
+            <Button x:Name="AjoutDR" Content="Ajout ok" HorizontalAlignment="Left" Margin="120,350,0,0" VerticalAlignment="Top" Width="100"  Background="BlueViolet" Click="AjoutDR_Click"     />
+
+        </Grid>
+    </Grid>
+</UserControl>

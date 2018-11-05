@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Zombillenium.UCSuppP"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Zombillenium"
+             mc:Ignorable="d" 
+            d:DesignHeight="500" d:DesignWidth="900">
+    <Grid  Background="#FFD9EAFF">
+        <Grid  Background="#FFD9EAFF" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBox x:Name="nomP"  HorizontalAlignment="Left" Margin="10,43,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100"   Background="White"/>
+            <TextBlock x:Name="nomPersonnel" Text="NomPersnnel" HorizontalAlignment="Left" Margin="135,43,-15,0" VerticalAlignment="Top" Width="100"/>
+            <TextBox x:Name="prenomP"  HorizontalAlignment="Left" Margin="10,73,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100"   Background="White"/>
+            <TextBlock x:Name="prenomPersonnel" Text="PrenomPersonnel" HorizontalAlignment="Left" Margin="135,73,-15,0" VerticalAlignment="Top" Width="100"/>
+
+            <Button x:Name="SupprimerP" Content="Supprimer ok" HorizontalAlignment="Left" Margin="60,106,0,0" Width="100"  Background="BlueViolet" Click="SupprimerP_Click" Height="26" VerticalAlignment="Top"/>
+        </Grid>
+    </Grid>
+</UserControl>

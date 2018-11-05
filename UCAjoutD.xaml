@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="Zombillenium.UCAjoutD"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Zombillenium"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="900">
+    <Grid Background="#FFD9EAFF">
+        <Grid Background="#FFD9EAFF" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBox x:Name="MatriculeD"  HorizontalAlignment="Left" Margin="10,20,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100" Background="White"/>
+            <TextBlock x:Name="Bouton_matriculeD" Text="matriculeD" HorizontalAlignment="Left" Margin="120,20,0,0" VerticalAlignment="Top" Width="100"  />
+            <TextBox x:Name="NomD"  HorizontalAlignment="Left" Margin="10,50,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100" Background="White"/>
+            <TextBlock x:Name="Bouton_nomD" Text="nomD" HorizontalAlignment="Left" Margin="120,50,0,0" VerticalAlignment="Top" Width="100" />
+            <TextBox x:Name="PrenomD"  HorizontalAlignment="Left" Margin="10,80,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100" Background="White"/>
+            <TextBlock x:Name="Bouton_PrenomD" Text="PrenomD" HorizontalAlignment="Left" Margin="120,80,0,0" VerticalAlignment="Top" Width="100" />
+            <ComboBox x:Name="SexeD" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="10,110,0,0" SelectionChanged="SexeD_SelectionChanged" Background="White">
+                <ComboBoxItem >male</ComboBoxItem>
+                <ComboBoxItem >femelle</ComboBoxItem>
+                <ComboBoxItem >autre</ComboBoxItem>
+            </ComboBox>
+            <TextBlock x:Name="Bouton_SexeD" Text="SexeD" HorizontalAlignment="Left" Margin="120,110,0,0" VerticalAlignment="Top" Width="100"/>
+            <TextBox x:Name="fonctionD"  HorizontalAlignment="Left" Margin="10,140,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100" Background="White"/>
+            <TextBlock x:Name="Bouton_fonctionD" Text="fonctionD" HorizontalAlignment="Left" Margin="120,140,0,0" VerticalAlignment="Top" Width="100"/>
+            <TextBox x:Name="cagnotteD"  HorizontalAlignment="Left" Margin="10,170,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100" Background="White"/>
+            <TextBlock x:Name="Bouton_cagnotteD" Text="cagnotteD" HorizontalAlignment="Left" Margin="120,170,0,0" VerticalAlignment="Top" Width="100"/>
+            <TextBox x:Name="affectationD"  HorizontalAlignment="Left" Margin="10,200,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100" Background="White"/>
+            <TextBlock x:Name="Bouton_affectationD" Text="affectationD" HorizontalAlignment="Left" Margin="120,200,0,0" VerticalAlignment="Top" Width="100"/>
+            <TextBox x:Name="ForceD"  HorizontalAlignment="Left" Margin="10,230,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100" Background="White"/>
+            <TextBlock x:Name="Bouton_ForceD" Text="ForceD" HorizontalAlignment="Left" Margin="120,230,0,0" VerticalAlignment="Top" Width="100" />
+
+            <Button x:Name="AjoutD" Content="Ajout ok" HorizontalAlignment="Left" Margin="120,260,0,0" VerticalAlignment="Top" Width="100"  Background="BlueViolet" Click="AjoutD_Click"     />
+
+        </Grid>
+    </Grid>
+</UserControl>
